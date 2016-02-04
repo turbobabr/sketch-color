@@ -3,7 +3,7 @@
 import tc from 'tinycolor2';
 
 const isMSColorInstance = (obj) => {
-    return toString.call(obj) === '[object MOBoxedObject]' && obj.className().UTF8String() === 'MSColor';
+    return toString.call(obj) === '[object MOBoxedObject]' && obj.className() == 'MSColor';
 };
 
 const convert = (input,fn,clr) => {

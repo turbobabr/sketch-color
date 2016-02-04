@@ -1,0 +1,33 @@
+{
+  "name": "sketch-color",
+  "version": "0.1.0",
+  "description": "A small library for creating or populating MSColor class instances based on various forms of input.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "./scripts/build.sh",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turbobabr/sketch-color.git"
+  },
+  "keywords": [
+    "sketchapp",
+    "sketch",
+    "plugin",
+    "color"
+  ],
+  "author": "Andrey Shakhmin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turbobabr/sketch-color/issues"
+  },
+  "homepage": "https://github.com/turbobabr/sketch-color#readme",
+  "dependencies": {
+    "tinycolor2": "^1.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13"
+  }
+}

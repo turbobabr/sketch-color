@@ -1,6 +1,6 @@
 {
   "name": "sketch-color",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A small library for creating or populating MSColor class instances based on various forms of input.",
   "main": "lib/index.js",
   "scripts": {
